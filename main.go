@@ -43,7 +43,6 @@ func main() {
 	if *logAddress == "" {
 		panic("慢日志文件不能为空")
 	}
-	print("-------")
 	if *startTime == "" || *endTime == "" {
 		panic("查询时间不能为空")
 	}
